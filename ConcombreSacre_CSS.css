@@ -1,1 +1,11 @@
 /* Fichier CSS à utiliser pour modifier la mise en page du projet de la Secte du Concombre Sacré */
+
+.jumbotron{
+    padding-top: -30%;
+    padding-bottom: -30%;
+}
+
+.couleur_banniere{
+    background-color: #FFDA7D;
+    color: #4AFF72;
+}
