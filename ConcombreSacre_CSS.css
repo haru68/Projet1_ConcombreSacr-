@@ -20,11 +20,6 @@
     text-decoration: none;
 }
 
-a:hover [class~="footer-text"] {
-    color: olive;
-    text-decoration: none;
-  }
-
 .footer-block{
     margin-left: ;
 }
@@ -39,4 +34,6 @@ a:hover [class~="footer-text"] {
 
 .footer-copyright-background {
     background-color: rgb(29, 27, 27);
+    text-decoration: none;
+    color:rgb(56, 55, 55);
 }
