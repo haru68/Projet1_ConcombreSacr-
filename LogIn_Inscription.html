@@ -19,6 +19,8 @@
     </head>
     <body>
 
+        <!--Ajouter la bannière des pages annexes-->
+
         <div class="container contour_contenu">
             <ul class="nav nav-tabs">
 
@@ -54,98 +56,53 @@
                         </form>
                     </div>
 
-                    <div class="slogan text-center xl">
+                    <div class="slogan text-center">
                         <p>Paix, harmonie, sérénité, méditation</p>
                     </div>   
                 </div>
 
-                <div class="tab-pane fade" id="Inscription" role="tabpanel">
+                <div class="tab-pane fade nav-background-login" id="Inscription" role="tabpanel">
                     
-                    <h1 class="h1_tab">Libérez vous avec la congrégation du Concombre Sacré</h1>
+                    <h1 class="h1_tab p-5">Libérez vous avec la congrégation du Concombre Sacré</h1>
+                    
+                    <div class="d-flex">
 
-                    <p>Nous vous avons séduit? Alors ne tardez pas et venez vous aussi goûter à l'essence pure du concombre sacré! 
-                        Pour cela, rien de plus simple, inscrivez-vous ci-dessous en prenant soin de bien enregistrer en pièce jointe
-                        votre dernier relevé de compte ainsi que le mandat SEPA dûment rempli. Nous nous chargerons du reste!
-                        A très vite!</p>
-                    <p>Sancta Cucumis Sativus</p>
-    
-                    <section>
-                        <form action="TraitementInscription.txt" method="POST">
-                            <label for="nom">Renseignez votre nom: </label>
-                            <input type="text" id="nom" name="nom">
-    
-                            <label for="files" id="File_RIB">Veuillez joindre votre RIB ici:</label>
-                            <input type="file" name="attach">
-    
-                            <label for="files" id="File_SEPA">Veuillez joindre votre mandat SEPA dûment rempli:</label>
-                            <input type="file" name="attach">
-    
-                            <input type="submit" value="Je veux ressentir l'essence pure du concombre!">
-                        </form> 
-                    </section>
+                        <div class="col-6">
+                            <p class="col-12 text-justify p-20 free_centering">Nous vous avons séduit? Alors ne tardez pas et venez vous aussi goûter à l'essence pure du concombre sacré! 
+                                Pour cela, rien de plus simple, inscrivez-vous ci-dessous en prenant soin de bien enregistrer en pièce jointe
+                                votre dernier relevé de compte ainsi que le mandat SEPA dûment rempli. Nous nous chargerons du reste!
+                                A très vite!</p>
+                            <p class="col-12 font-weight-bold font-italic text-center">Sancta Cucumis Sativus</p>
+                        </div c>
+        
+                        <section>
+                            <form action="TraitementInscription.txt" method="POST">
+                                <div class="col-6 container-fluid body-content p-bottom">
+                                    <label for="nom">Renseignez votre nom: </label>
+                                    <input type="text" id="nom" name="nom">
+                                </div>
+                                
+                                <div class="col-10 container-fluid body-content p-bottom">
+                                    <label for="files" id="File_RIB">Veuillez joindre votre RIB ici:</label>
+                                    <input type="file" name="attach">
+                                </div>
+        
+                                <div class="col-10 container-fluid body-content p-bottom">
+                                    <label for="files" id="File_SEPA">Veuillez joindre votre mandat SEPA dûment rempli:</label>
+                                    <input type="file" name="attach">
+                                </div>
+                                
+                                <div class="container-fluid input_disposition col-10 p-bottom">
+                                    <input type="submit" value="Je veux ressentir l'essence pure du concombre!" class="btn-success p-3">
+                                </div>
+                            </form> 
+                        </section>
+                    </div>
 
                 </div>
             </div>
         </div>
 
-
-<!--
-
-        <div class="tab-content border">
-
-            <div class="tab-pane fade show active" role="tabpanel">
-
-                <h1>Communauté de la congrégation du Concombre Sacré</h1>
-
-                <p>Après validation de votre inscription par notre Sancta Cucumis Sativus, vos identifiants vous seront envoyés par pigeon voyageur sous quinzaine.</p>
-
-                <form action="traitementLogin.txt" method="POST">
-                    <div>
-                        <label for="identifiant">Identifiant:</label>
-                        <input type="text" id="Identifiant" name="user_id">
-                    </div>
-                    <div>
-                        <label for="password_id">Mot de passe:</label>
-                        <input type="password" id="password_id" name="password_id">
-                    </div>
-                    <input type="submit" value="Entrer dans la communauté">
-                </form>
-
-                <div>
-                    <p>Paix, harmonie, sérénité, méditation</p>
-                </div>   
-
-            </div>
-
-            <div class="tab-pane fade show" role="tabpanel">
-
-                <h1>Libérez vous avec la congrégation du Concombre Sacré</h1>
-
-                <p>Nous vous avons séduit? Alors ne tardez pas et venez vous aussi goûter à l'essence pure du concombre sacré! 
-                    Pour cela, rien de plus simple, inscrivez-vous ci-dessous en prenant soin de bien enregistrer en pièce jointe
-                    votre dernier relevé de compte ainsi que le mandat SEPA dûment rempli. Nous nous chargerons du reste!
-                    A très vite!</p>
-                <p>Sancta Cucumis Sativus</p>
-
-                <section>
-                    <form action="TraitementInscription.txt" method="POST">
-                        <label for="nom">Renseignez votre nom: </label>
-                        <input type="text" id="nom" name="nom">
-
-                        <label for="files" id="File_RIB">Veuillez joindre votre RIB ici:</label>
-                        <input type="file" name="attach">
-
-                        <label for="files" id="File_SEPA">Veuillez joindre votre mandat SEPA dûment rempli:</label>
-                        <input type="file" name="attach">
-
-                        <input type="submit" value="Je veux ressentir l'essence pure du concombre!">
-                    </form> 
-                </section>
-
-            </div>
-
-        </div>
--->
         <footer>
             <!-- Arrière plan en vert concombre ou gris foncé-->
             <table>

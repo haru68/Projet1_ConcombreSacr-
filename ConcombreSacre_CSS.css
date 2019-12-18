@@ -1,7 +1,8 @@
 /* Fichier CSS à utiliser pour modifier la mise en page du projet de la Secte du Concombre Sacré */
 
 .nav-background-login{
-    background-color: 
+    background-color: rgba(52, 209, 86, 0.6);
+
 }
 
 .contour_contenu {
@@ -30,4 +31,13 @@
     margin-top: 15%;
     font-weight: bold;
     font-style: italic;
+}
+
+.p-bottom {
+    padding-bottom: 5%;
+}
+
+.free_centering {
+    margin-top: 5%;
+    margin-left: 4%;
 }
