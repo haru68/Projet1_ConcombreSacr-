@@ -6,6 +6,8 @@
         <meta name="description" content="Venez ressentir l'essence même du concombre!">
         <meta name="author" content="Je suis leur développeur web, au secours! Venez me libérer!!!!! (svp)">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
         <title>Libérez vous - Congrégation du Concombre Sacré</title>
     </head>
 
@@ -22,8 +24,10 @@
 
         <section>
             <form action="TraitementInscription.txt" method="POST">
-                <label for="nom">Renseignez votre nom: </label>
-                <input type="text" id="nom" name="nom">
+                <div class="form-group">
+                    <label for="nom">Renseignez votre nom: </label>
+                    <input type="text" id="nom" name="nom">
+                </div>
 
                 <label for="files" id="File_RIB">Veuillez joindre votre RIB ici:</label>
                 <input type="file" name="attach">
