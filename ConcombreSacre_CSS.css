@@ -1,1 +1,42 @@
 /* Fichier CSS à utiliser pour modifier la mise en page du projet de la Secte du Concombre Sacré */
+
+.footer-background {
+    background-color:  rgb(37, 36, 36);
+    color: white;
+}
+
+.footer-text {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: olive;
+    text-decoration: none;
+}
+
+.footer-text ul li p a:hover {
+    color: olive;
+    text-decoration: none;
+}
+
+a:hover [class~="footer-text"] {
+    color: olive;
+    text-decoration: none;
+  }
+
+.footer-block{
+    margin-left: ;
+}
+
+.icone-adresse a::before {
+    content:"";
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(https://pngimage.net/wp-content/uploads/2018/06/pictogramme-maison-png-2.png) center center/contain no-repeat;
+}
+
+.footer-copyright-background {
+    background-color: rgb(29, 27, 27);
+}
