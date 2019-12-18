@@ -1,9 +1,33 @@
 /* Fichier CSS à utiliser pour modifier la mise en page du projet de la Secte du Concombre Sacré */
 
-.contour_contenu {
-    padding: 5%;
+.nav-background-login{
+    background-color: 
 }
 
-.tab_essai {
-    cursor:pointer;
+.contour_contenu {
+    padding: 2%;
+    margin-top:1%;
+}
+
+.h1_tab {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.input_disposition{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.middle-centering {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.slogan {
+    margin-top: 15%;
+    font-weight: bold;
+    font-style: italic;
 }
