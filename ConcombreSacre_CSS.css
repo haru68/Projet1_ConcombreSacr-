@@ -5,7 +5,43 @@
     padding-bottom: -30%;
 }
 
-.couleur_banniere{
+
+.position-entete
+{
+    position: relative;
+    top: 50%;
+}
+
+.couleur-banniere {
     background-color: #FFDA7D;
     color: #4AFF72;
+}
+
+.thick-border {
+    border-left: solid #B9ACA6 0.1rem;
+}
+
+.section-background {
+    background-color: rgba(52, 209, 86, 0.6);
+    border-top: solid rgba(27, 110, 45);
+    border-bottom: solid rgba(27, 110, 45);
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+h2 {
+    padding-bottom: 2%;
+    font-weight: bold;
+    text-decoration: underline rgba(27, 110, 45);
+    padding-left: 5%;
+}
+
+.text-paragraph{
+    padding-left: 4%;
+    padding-right: 4%;
+    position: relative;
+    top: 50%;
+    background-color: white;
+    padding: 0.5%;
+    border-radius: 20px;
 }

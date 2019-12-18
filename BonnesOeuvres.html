@@ -8,7 +8,7 @@
         <meta name="author" content="Je suis leur développeur web, au secours! Venez me libérer!!!!! (svp)">
 
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link re="stylesheet" type="text/css" href="ConcombreSacre_CSS.css">
+        <link rel="stylesheet" type="text/css" href="ConcombreSacre_CSS.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Permet d'afficher du contenu responsif sur tous les écrans-->
 
         <title>Bonnes Oeuvres - Congrégation du Concombre Sacré</title>
@@ -19,8 +19,8 @@
         <div class="container-fluid p-0">
             <section class="row no-gutters">
                 <div class="col-12">
-                    <h1 class="position-absolute text-white col-12 text-center couleur_banniere">Bonnes Oeuvres au profit de la congrégation du Concombre Sacré</h1>
-                    <a href="Welcome_page.html"><img class="img-fluid rounded" src="BanniereProvisoire.jpg" alt="Banniere de la secte du Concombre Sacré" style="width:100%"></a>
+                    <h1 class="couleur-banniere position-entete position-absolute text-white col-12 text-center">Bonnes Oeuvres au profit de la congrégation du Concombre Sacré</h1>
+                    <a href="Welcome_page.html"><img class="img-fluid rounded" src="BanniereProvisoire.jpg" alt="Banniere de la secte du Concombre Sacré" style="width:100%" title="Retour à la page d'accueil"></a>
                 </div>
             </section>
         </div>
@@ -29,9 +29,9 @@
             <nav class="jumbotron jumbotron-fluid p-3">
                 <ul class="nav nav-pills nav-fill">
                     <li class="nav-item"> <a class="nav-link" href="#soutient"><button type="button" class="btn btn-success btn-lg">Pour nous soutenir</button> </a> </li>
-                    <div class="border"></div>
+                    <div class="thick-border"></div>
                     <li class="nav-item"> <a class="nav-link" href="#contribution"> <button type="button" class="btn btn-success btn-lg">Utilisation de ma contribution</button> </a> </li>
-                    <div class="border"></div>
+                    <div class="thick-border"></div>
                     <li class="nav-item"> <a class="nav-link text-center font-weight-bold" href="#retribution"> <button type="button" class="btn btn-success btn-lg">Notre rétribution</button> </a> </li>
                 </ul>
             </nav>
@@ -59,13 +59,18 @@
             <p>Projet: étendre le bien être humain à votre animal</p>
         </section>
 
-        <section>
-            <h2 id="retribution">Notre rétribution</h2>
+        <section class="section-background">
+            <h2 id="retribution" class="col-12 text-center">Notre rétribution</h2>
 
-            <p>En nous faisant un don, nous nous engageons à exercer des offices spéciales en votre nom afin de vous remercier pour cela. Pour des dons d'un montant
-                supérieur à 40 000 €, notre Sancta Cucumis Sativus vous fera parvenir un de nos Concombre Sacré spécialement Concomtémisé par ses soins. Vous pourrez alors
-                vous vanter auprès de vos pairs!
-            </p>
+            <div class="d-flex p-5">
+                    <p class="lead text-paragraph text-justify my-auto">En nous faisant un don, nous nous engageons à exercer des offices spéciales en votre nom afin de vous remercier pour cela. Pour des dons d'un montant
+                        supérieur à 40 000 €, notre Sancta Cucumis Sativus vous fera parvenir un de nos Concombre Sacré spécialement Concomtémisé par ses soins. Vous pourrez alors
+                        vous vanter auprès de vos pairs!
+                    </p>
+                <div>
+                    <img class="img-fluid rounded-circle col-12" src="secte.jpg" alt="Représentation picturale d'un champ officieux">
+                </div>
+            </div>
         </section>
 
         <footer>
