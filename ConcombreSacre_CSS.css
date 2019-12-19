@@ -1,5 +1,48 @@
 /* Fichier CSS à utiliser pour modifier la mise en page du projet de la Secte du Concombre Sacré */
 
+
+.nav-background-login{
+    background-color: rgba(52, 209, 86, 0.6);
+
+}
+
+.contour_contenu {
+    padding: 2%;
+    margin-top:1%;
+}
+
+.h1_tab {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.input_disposition{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.middle-centering {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.slogan {
+    margin-top: 15%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.p-bottom {
+    padding-bottom: 5%;
+}
+
+.free_centering {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
 .jumbotron{
     padding-top: -30%;
     padding-bottom: -30%;
@@ -46,9 +89,79 @@ h2 {
     border-radius: 20px;
 }
 
+
+
+
+.page /*--centre le contenu----*/
+{
+	width: 50%;
+	margin: 0 auto; 
+	
+}
+
+
+/*-----------page BONNESOEUVRES--------*/
+
 .card
 {
 	margin: 0 auto;
     float: none;
-    margin-bottom: 10px;	
+    margin-bottom: 10px;
+    margin-top: 10%;	
 }
+
+
+.page
+{
+	width: 50%;
+	margin: 0 auto; 
+	
+}
+
+
+#contribuer_button
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+.titre-contribution
+{
+	margin-top: 10%;
+}
+
+
+/*----------page LIBEREZ VOUS-----------*/
+
+#nom
+{
+	width: 60%;
+}
+
+.container-formulaire-libérez
+{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+
+/*---------page LOGIN ---------------*/
+
+#button-login
+{
+	margin-top: 4%;
+}
+
+#Identifiant, #password_id
+{
+	width: 40%;
+}
+
+.citation
+{
+	font-style: italic;
+}
+=======
+/*------------page LOGIN ---------------*/
