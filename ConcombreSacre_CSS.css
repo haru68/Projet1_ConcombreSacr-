@@ -1,5 +1,16 @@
 /* Fichier CSS à utiliser pour modifier la mise en page du projet de la Secte du Concombre Sacré */
+.navbar {
+    padding: 0.0rem;
+}
 
+.navbar-nav li {
+    padding-right: 15px;
+}
+
+.nav-link {
+    font-size: 1.5em !important;
+    width: 100%;
+}
 
 .footer-background {
     background-color:  rgb(37, 36, 36);
