@@ -6,34 +6,44 @@
         <meta name="description" content="Venez ressentir l'essence même du concombre!">
         <meta name="author" content="Je suis leur développeur web, au secours! Venez me libérer!!!!! (svp)">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
         <title>Libérez vous - Congrégation du Concombre Sacré</title>
     </head>
 
     <body>
 
-        <h1>Libérez vous avec la congrégation du Concombre Sacré</h1>
+        <div class="page">
 
-        <p>Nous vous avons séduit? Alors ne tardez pas et venez vous aussi goûter à l'essence pure du concombre sacré! 
-            Pour cela, rien de plus simple, inscrivez-vous ci-dessous en prenant soin de bien enregistrer en pièce jointe
-            votre dernier relevé de compte ainsi que le mandat SEPA dûment rempli. Nous nous chargerons du reste!
-            A très vite!
-        </p>
-        <p>Sancta Cucumis Sativus</p>
+            <h1>Libérez vous avec la congrégation du Concombre Sacré</h1>
 
-        <section>
-            <form action="TraitementInscription.txt" method="POST">
-                <label for="nom">Renseignez votre nom: </label>
-                <input type="text" id="nom" name="nom">
+            <p>Nous vous avons séduit? Alors ne tardez pas et venez vous aussi goûter à l'essence pure du concombre sacré! 
+                Pour cela, rien de plus simple, inscrivez-vous ci-dessous en prenant soin de bien enregistrer en pièce jointe
+                votre dernier relevé de compte ainsi que le mandat SEPA dûment rempli. Nous nous chargerons du reste!
+                A très vite!
+            </p>
+            <p>Sancta Cucumis Sativus</p>
 
-                <label for="files" id="File_RIB">Veuillez joindre votre RIB ici:</label>
-                <input type="file" name="attach">
+            <section class="container-formulaire-libérez">
+                <form action="TraitementInscription.txt" method="POST">
 
-                <label for="files" id="File_SEPA">Veuillez joindre votre mandat SEPA dûment rempli:</label>
-                <input type="file" name="attach">
+                    <div class="form-group">
+                        <label for="nom">Renseignez votre nom: </label>
+                        <input type="text" class="form-control" id="nom" name="nom">
+                    </div>
+                </br>
 
-                <input type="submit" value="Je veux ressentir l'essence pure du concombre!">
+                    <label for="files" id="File_RIB">Veuillez joindre votre RIB ici:</label>
+                    <input type="file" name="attach">
+                
 
-            </form> 
+                    <label for="files" id="File_SEPA">Veuillez joindre votre mandat SEPA dûment rempli:</label>
+                    <input type="file" name="attach">
+
+                    <button type="submit" class="btn btn-success" id="contribuer_button">Je veux ressentir l'essence pure du concombre!</button>
+                    
+
+                </form>
         </section>
 
         <footer>
