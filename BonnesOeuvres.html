@@ -7,9 +7,11 @@
         <meta name="description" content="Venez ressentir l'essence même du concombre!">
         <meta name="author" content="Je suis leur développeur web, au secours! Venez me libérer!!!!! (svp)">
 
+
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="ConcombreSacre_CSS.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Permet d'afficher du contenu responsif sur tous les écrans-->
+
 
         <title>Bonnes Oeuvres - Congrégation du Concombre Sacré</title>
     </head>
@@ -37,28 +39,73 @@
             </nav>
         </section>
 
-        <section>
-            <h2 id="soutient">Pour nous soutenir</h2>
-            <form action="TraitementArgent.txt" method="POST">
-                <label for="soutient">Merci d'indiquer la nature de votre contribution <em>(montant, acte de propriété etc)</em></label>
-                <textarea id="soutient" name="soutient"></textarea>
 
-                <label for="files" id="File_SEPA">Veuillez joindre vos documents:</label>
-                <input type="file" name="attach">
+        <div id="page">
+            <section>
+                <h2>Pour nous soutenir</h2>
+                <form action="TraitementArgent.txt" method="POST">
+                    <div class="form-group">
+                        <label for="soutient">Merci d'indiquer la nature de votre contribution : </br><em>(montant, acte de propriété etc)</em></label>
+                        <textarea class="form-control" id="soutient" name="soutient" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="file" id="File_SEPA">Veuillez joindre vos documents:</label>
+                        <input type="file" name="attach">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success">Je fais un don</button>
+                        
+                    </div>
+                </form>
+            </section>
 
-                <input type="submit" value="Je fais un don">
-            </form>
-        </section>
-
-        <section>
-            <h2 id="contribution">J'utilise ma contribution pour:</h2>
-
-            <p>Développement de notre congrégation.</p>
-            <p>Aide aux personnes dans le besoin <!--Mettre photo de qqn avec voiture de luxe ou diner de luxe --> </p>
-            <p>Développement du bien être humain</p>
-            <p>Projet: étendre le bien être humain à votre animal</p>
-        </section>
-
+       
+            <section>
+                <h2 class="titre-contribution">J'utilise ma contribution pour:</h2>
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div "col mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="http://www.sainte-bernadette-soubirous-nevers.com/wp-content/uploads/2015/04/12--implantations-de-la-congregation-.jpg" class="card-img-top" class="card-img-top" alt="carte du monde">
+                            <div class="card-body">
+                                <h5 class="card-title">Développement de notre congrégation.</h5>
+                            </div>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1"></label>
+                        </div>
+                    </div>
+                    <div "col mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://www.infinite-paris.com/wp-content/uploads/2019/01/location-voiture-chauffeur-corporate-paris.jpg" class="card-img-top" alt="homme dans voiture de luxe">
+                            <div class="card-body">
+                                <h5 class="card-title">Aide aux personnes dans le besoin</h5>
+                            </div>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1"></label>
+                        </div>
+                    </div>
+                    <div "col mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <img src="https://www.contrepoints.org/wp-content/uploads/2014/08/Nirvana-Bonheur-Bien-%C3%AAtre-CC-Steve-Prakope.jpg?w=640" class="card-img-top" alt="pose yoga">
+                                <h5 class="card-title">Développement du bien être humain</h5>
+                            </div>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1"></label>
+                        </div>
+                    </div>
+                    <div "col mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <img src="https://static.wixstatic.com/media/ca5384_415823b8717246b997518c6ce58d6dce~mv2.jpg/v1/fit/w_300,h_300,al_c,q_80/file.jpg" class="card-img-top" alt="chihuahua bien être">
+                                <h5 class="card-title">Projet: étendre le bien être humain à votre animal</h5>
+                            </div>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1"></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success" id="contribuer_button">Contribuer</button>
+                </section>
+        </div>
         <section class="section-background">
             <h2 id="retribution" class="col-12 text-center">Notre rétribution</h2>
 
@@ -88,4 +135,4 @@
         </footer>
     </body>
 
-</htmllang="fr">
+</html>
