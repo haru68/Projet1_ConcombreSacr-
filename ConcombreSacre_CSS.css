@@ -98,6 +98,36 @@ h2 {
 }
 
 
+.testifier {
+    padding-bottom: 2%;
+    margin-left: 4%;
+    margin-top: 5%;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #28993E;
+    font-style: italic;
+}
+
+
+.jungiste {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testing {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.testimony_paragraph_align {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 
 
 .page /*--centre le contenu----*/
@@ -171,5 +201,6 @@ h2 {
 {
 	font-style: italic;
 }
-=======
+
 /*------------page LOGIN ---------------*/
+
