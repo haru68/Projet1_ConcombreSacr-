@@ -57,6 +57,49 @@
 }
 
 
+
+.nav-background-login{
+    background-color: rgba(52, 209, 86, 0.6);
+
+}
+
+.contour_contenu {
+    padding: 2%;
+    margin-top:1%;
+}
+
+.h1_tab {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.input_disposition{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.middle-centering {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.slogan {
+    margin-top: 15%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.p-bottom {
+    padding-bottom: 5%;
+}
+
+.free_centering {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
 .jumbotron{
     padding-top: -30%;
     padding-bottom: -30%;
@@ -65,13 +108,27 @@
 
 .position-entete
 {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 0%;
 }
 
 .couleur-banniere {
-    background-color: #FFDA7D;
+    background-color: rgba(52, 209, 86);
     color: #4AFF72;
+    padding-bottom: 0.8%;
+}
+
+.logo-title {
+    width:4%;
+}
+
+.image_banniere {
+    position: relative;
+    top: 13%
+}
+
+.navigation-menu {
+    margin-top: 4%;
 }
 
 .thick-border {
@@ -93,7 +150,7 @@ h2 {
     padding-left: 5%;
 }
 
-.text-paragraph{
+.text-paragraph {
     padding-left: 4%;
     padding-right: 4%;
     position: relative;
@@ -101,5 +158,125 @@ h2 {
     background-color: white;
     padding: 0.5%;
     border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
+
+.img_concombre {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.testifier {
+    padding-bottom: 2%;
+    margin-left: 4%;
+    margin-top: 5%;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #28993E;
+    font-style: italic;
+}
+
+
+.jungiste {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testing {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.testimony_paragraph_align {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*-----------page BONNESOEUVRES--------*/
+
+.card
+{
+	margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 10%;	
+}
+
+
+.page
+{
+	width: 50%;
+	margin: 0 auto; 
+	
+}
+
+
+#contribuer_button
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+.titre-contribution
+{
+	margin-top: 10%;
+}
+
+
+/*----------page LIBEREZ VOUS-----------*/
+
+#nom
+{
+	width: 60%;
+}
+
+.container-formulaire-libérez
+{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*---------page LOGIN ---------------*/
+
+#button-login
+{
+	margin-top: 4%;
+}
+
+#Identifiant, #password_id
+{
+	width: 40%;
+}
+
+.citation
+{
+	font-style: italic;
+}
+
+/*------------page LOGIN ---------------*/
+
 
