@@ -44,4 +44,12 @@ h2 {
     background-color: white;
     padding: 0.5%;
     border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.img_concombre {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
 }
