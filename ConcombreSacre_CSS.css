@@ -1,6 +1,5 @@
 /* Fichier CSS à utiliser pour modifier la mise en page du projet de la Secte du Concombre Sacré */
 
-
 .nav-background-login{
     background-color: rgba(52, 209, 86, 0.6);
 
@@ -51,13 +50,27 @@
 
 .position-entete
 {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 0%;
 }
 
 .couleur-banniere {
-    background-color: #FFDA7D;
+    background-color: rgba(52, 209, 86);
     color: #4AFF72;
+    padding-bottom: 0.8%;
+}
+
+.logo-title {
+    width:4%;
+}
+
+.image_banniere {
+    position: relative;
+    top: 13%
+}
+
+.navigation-menu {
+    margin-top: 4%;
 }
 
 .thick-border {
