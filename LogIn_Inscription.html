@@ -42,13 +42,18 @@
                         <p class="col-6 text-justify p-20 middle-centering">Après validation de votre inscription par notre Sancta Cucumis Sativus, vos identifiants vous seront envoyés par pigeon voyageur sous quinzaine.</p>
 
                         <form action="traitementLogin.txt" method="POST">
-                            <div class="col-6 container-fluid body-content">
-                                <label for="identifiant" class="center-block">Identifiant:</label>
-                                <input type="text" id="Identifiant" name="user_id" class="center-block">
+
+                            <div class="col-6 container-fluid body-content form-group">
+                                <div class="identifiant">
+                                    <label for="identifiant" class="center-block">Identifiant:</label>
+                                    <input type="text" id="Identifiant" name="user_id" class="center-block form-control">
+                                </div>
                             </div>
                             <div class="col-6 container-fluid body-content">
-                                <label for="password_id" class="center-block">Mot de passe:</label>
-                                <input type="password" id="password_id" name="password_id" class="center-block">
+                                <div class="identifiant">
+                                    <label for="password_id" class="center-block">Mot de passe:</label>
+                                    <input type="password" id="password_id" name="password_id" class="center-block form-control">
+                                </div>
                             </div>
                             <div class="container-fluid input_disposition col-6">
                                 <input type="submit" value="Viender dans la communauté !" class="p-1 btn-danger block-center">
@@ -77,10 +82,12 @@
         
                         <section>
                             <form action="TraitementInscription.txt" method="POST">
-                                <div class="col-6 container-fluid body-content p-bottom">
+                                
+                                <div class="form-group col-6 container-fluid body-content p-bottom">
                                     <label for="nom">Renseignez votre nom: </label>
-                                    <input type="text" id="nom" name="nom">
+                                    <input type="text" class="form-control" id="nom_login" name="nom">
                                 </div>
+                                
                                 
                                 <div class="col-10 container-fluid body-content p-bottom">
                                     <label for="files" id="File_RIB">Veuillez joindre votre RIB ici:</label>
