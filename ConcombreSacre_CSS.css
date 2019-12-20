@@ -148,8 +148,6 @@
 
 .site-background {
     background-color: rgba(52, 209, 86, 0.4);
-    border-top: solid rgba(27, 110, 45);
-    border-bottom: solid rgba(27, 110, 45);
     padding-top: 2%;
     margin-top: 5%;  
 
@@ -178,6 +176,14 @@ h2 {
     border-radius: 20px;
     margin-left: 3%;
     margin-right: 3%;
+}
+
+.qui-sommes-nous
+{
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
 }
 
 .img_concombre {
