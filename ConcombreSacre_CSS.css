@@ -146,12 +146,19 @@
     border-left: solid #B9ACA6 0.1rem;
 }
 
-.section-background {
-    background-color: rgba(52, 209, 86, 0.6);
+.site-background {
+    background-color: rgba(52, 209, 86, 0.4);
     border-top: solid rgba(27, 110, 45);
     border-bottom: solid rgba(27, 110, 45);
     padding-top: 2%;
-    margin-top: 5%;
+    margin-top: 5%;  
+
+}
+
+.section-background {
+    background-color: rgba(300, 300, 300, 0.5);
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 h2 {
