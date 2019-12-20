@@ -22,43 +22,70 @@
         <title>Site spirituel de la congrégation du Concombre Sacré</title>
     </head>
     <body>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Welcome_page.html"><img src="logo-cocombre-sacre-en-couleur160.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#qui-sommes-nous">Qui sommes-nous?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#temoignage">Témoignages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="LogIn_Inscription.html">Adeptes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Conconteme.html">Concomtême</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="BonnesOeuvres.html">Bonnes Oeuvres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="LibérezVous.html">Libérez vous</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <h1>Congrégation du Concombre Sacré</h1>
         <h2>Spiritualité, Bien Être, Bonheur, Liberté</h2>
         <!--Mettre un slide en arrière plan avec des photos de concombre (voir fête du concombre)--->
-
-        <nav>
-            <ul>
-                <li>Qui sommes-nous?</li>
-                <li>Témoignages</li>
-                <li>Adeptes</li>
-                <li>Concomtême</li>
-                <li>Bonnes Oeuvres</li>
-                <li>Libérez vous</li>
-            </ul>
-        </nav>
 
         <div id="slides" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
                 <li data-target="#slides" data-slide-to="0" class="active"></li>
                 <li data-target="#slides" data-slide-to="1"></li>
                 <li data-target="#slides" data-slide-to="2"></li>
+                <li data-target="#slides" data-slide-to="3"></li>
+                <li data-target="#slides" data-slide-to="4"></li>
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="Secte.jpg">
+                    <img src="Slide1.jpg">
                 </div>
                 <div class="carousel-item">
-                    <img src="concombres.jpg">
+                    <img src="Slide2.png">
                 </div>
                 <div class="carousel-item">
-                    <img src="BanniereProvisoire.jpg">
+                    <img src="Slide3.png">
+                </div>
+                <div class="carousel-item">
+                    <img src="Slide4.png">
+                </div>
+                <div class="carousel-item">
+                    <img src="Slide5.png">
                 </div>
             </div>
         </div>
 
         <main>
             <section>
-                <h2>Qui sommes-nous?</h2>
+                <h2 id="qui-sommes-nous">Qui sommes-nous?</h2>
                 <h3>Notre histoire</h3>
 
                 <p>Pendant la seconde guerre mondiale, les attaques incéssantes, les déportations massives et le climat
@@ -79,9 +106,9 @@
             </section>
 
 
-            <section class="">
-                <div class="section-background col-10 testing">
-                    <h2>Témoignages</h2>
+            <section class="site-background">
+                <div class="section-background col-8 testing">
+                    <h2 id="temoignage">Témoignages</h2>
                     <div>
                         <div class="container-fluid center-block">
                             
@@ -177,18 +204,100 @@
                 <!--Faire un slide des photos des lieux-->
             </div>
         </main>
-        <footer>
-            <!-- Arrière plan en vert concombre ou gris foncé-->
-            <table>
-                <tr>Contact</tr>
-                    <td>FAQ</td>
-                <tr>Mentions légales</tr>
-                    <td>Le bonheur n’est pas quelque chose d’acquis. Il vient par nos propres actions. <em>Dalaï Lama</em></td>
-                <tr>Youtube</tr>
-                    <td>Facebook</td>
-                <tr>Merci de votre visite</tr>
-                    <td>A bientôt =)</td>
-            </table>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small mdb-color lighten-3 pt-4 footer-background">
+            <div class="text-center citation">
+                <p>"Le bonheur n’est pas quelque chose d’acquis. Il vient par nos propres actions."</p>
+                <p>Dalaï Lama</p>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left footer-block">
+  
+                <!-- Grid row -->
+                <div class="row">
+  
+                    <!-- Grid column -->
+                    <div class="col-4">
+                        <!-- Footer Links -->
+                        <h5 class="font-weight-bold text-uppercase mb-4 footer-text">A propos</h5>
+                        <ul class="list-unstyled footer-text" >
+                            <li>
+                                <p>
+                                    <a href="#" class="footer-text">CONTACT</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="#" class="footer-text">FAQ</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="#" class="footer-text">MENTIONS LEGALES</a>
+                                </p>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/" class="facebook" target="_blank"> <img src="https://i.pinimg.com/originals/23/da/be/23dabe90dfaadb4565540727fdaa054a.png" alt="logo facebook" width="50" height="50"></a>
+                                <a href="https://www.youtube.com/" class="youtube" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/YouTube_logo_%282013-2015%29.png"  alt="logo youtube" width="61" height="61"></a>
+                                <a href="https://www.instagram.com/" class="instagram" target="_blank"> <img src="https://img.pngio.com/download-logo-instagram-free-png-transparent-image-and-clipart-instagram-logo-clip-art-400_400.png" alt="logo instagram" width="39" height="39"></a>
+                            </li>
+                        </uL>
+                    </div>
+    
+                    <hr class="clearfix w-100 d-md-none">
+  
+                    <!-- Grid column -->
+                    <div class="col-4">
+                         <!-- Contact details -->
+                        <h5 class="font-weight-bold text-uppercase mb-4 footer-text">Contactez nous</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Ouvert du lundi au samedi de 8h00 à 21h00</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-maison-blanc-png-3.png" alt="logo maison blanc" class="logo-contact" width="16" height="16">
+                                32 Rue du Bassin d'Austerlitz, 67100 Strasbourg
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-mail-png-blanc-7.png" alt="logo mail blanc" width="16" height="16"> 
+                                info@cocombresacre.com
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <img src="https://carlisletheacarlisletheatre.org/images/phone-clipart-white-9.png" alt="logo maison blanc" class="logo-contact" width="16" height="16">   
+                                + 09 99 99 99 99
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Grid column -->
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-4">
+                        <!-- Google map -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.8672768045676!2d7.7616949155443!3d48.5740907792607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c903e6b9de13%3A0xfe720cc7cfd8d3ab!2sAncien%20entrep%C3%B4t%20Seegmuller%2C%2067100%20Strasbourg!5e0!3m2!1str!2sfr!4v1576682932780!5m2!1str!2sfr" height="210" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+                    <!-- Grid column -->
+
+                </div>
+            </div>
+  
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 footer-copyright-background" >© 2018 Copyright:
+                <a href="https://mdbootstrap.com/education/bootstrap/" class="footer-text"> ComcombreSacreDevGroup.com</a>
+            </div>
+            <!-- Copyright -->
         </footer>
     </body>
 </html>
