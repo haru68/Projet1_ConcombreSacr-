@@ -56,93 +56,94 @@
             </nav>
         </section>
 
+        <main class="site-background">
+            <div id="page" class="section-background">
+                <section class="soutient-margin">
+                    <h2 id="soutient" class="text-align-left">Pour nous soutenir</h2>
+                    <form action="TraitementArgent.txt" method="POST">
+                        <div class="form-group">
+                            <label for="soutient">Merci d'indiquer la nature de votre contribution : </br><em>(montant, acte de propriété etc)</em></label>
+                            <textarea class="form-control" name="soutient" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="file" id="File_SEPA">Veuillez joindre vos documents:</label>
+                            <input type="file" name="attach">
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-success" id="contribuer_button">Je fais un don</button>  
+                        </div>
+                    </form>
+                </section>
 
-        <div id="page">
-            <section>
-                <h2>Pour nous soutenir</h2>
-                <form action="TraitementArgent.txt" method="POST">
-                    <div class="form-group">
-                        <label for="soutient">Merci d'indiquer la nature de votre contribution : </br><em>(montant, acte de propriété etc)</em></label>
-                        <textarea class="form-control" id="soutient" name="soutient" rows="3"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="file" id="File_SEPA">Veuillez joindre vos documents:</label>
-                        <input type="file" name="attach">
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-success">Je fais un don</button>
+        
+                <section>
+                    <h2 class="titre-contribution text-align-left" id="contribution">J'utilise ma contribution pour:</h2>
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="http://www.sainte-bernadette-soubirous-nevers.com/wp-content/uploads/2015/04/12--implantations-de-la-congregation-.jpg" class="card-img-top" class="card-img-top" alt="carte du monde">
+                                <div class="card-body">
+                                    <h5 class="card-title">Développement de notre congrégation.</h5>
+                                </div>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1"></label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://www.infinite-paris.com/wp-content/uploads/2019/01/location-voiture-chauffeur-corporate-paris.jpg" class="card-img-top" alt="homme dans voiture de luxe">
+                                <div class="card-body">
+                                    <h5 class="card-title">Aide aux personnes dans le besoin</h5>
+                                </div>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1"></label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="https://www.contrepoints.org/wp-content/uploads/2014/08/Nirvana-Bonheur-Bien-%C3%AAtre-CC-Steve-Prakope.jpg?w=640" class="card-img-top" alt="pose yoga">
+                                    <h5 class="card-title">Développement du bien être humain</h5>
+                                </div>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1"></label>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="https://static.wixstatic.com/media/ca5384_415823b8717246b997518c6ce58d6dce~mv2.jpg/v1/fit/w_300,h_300,al_c,q_80/file.jpg" class="card-img-top" alt="chihuahua bien être">
+                                    <h5 class="card-title">Projet: étendre le bien être humain à votre animal</h5>
+                                </div>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1"></label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success" id="contribuer_button">Contribuer</button>
+                    </section>
+            </div>
+            <section class="section-background section-retribution-margin col-6">
+                <h2 id="retribution" class="col-12 text-align-left">Notre rétribution</h2>
+
+                <div class="p-5">
+                    <div>
+                        <div class="row">
+                            <img src="concombre.png" alt="Image d'un concombre" class="col-5 align-top img_concombre">
+                        </div>
+                        <div>
+                            <p class="lead text-paragraph text-justify my-auto align-middle">En nous faisant un don, nous nous engageons à exercer des offices spéciales en votre nom afin de vous remercier pour cela. Pour des dons d'un montant
+                                supérieur à 40 000 €, notre Sancta Cucumis Sativus vous fera parvenir un de nos Concombre Sacré spécialement Concomtémisé par ses soins. Vous pourrez alors
+                                vous vanter auprès de vos pairs!
+                            </p>
+                        </div>
                         
                     </div>
-                </form>
+                    <div>
+                        <img class="img-fluid rounded-circle col-12" src="secte.jpg" alt="Représentation picturale d'un champ officieux">
+                    </div>
+                </div>
             </section>
-
-       
-            <section>
-                <h2 class="titre-contribution">J'utilise ma contribution pour:</h2>
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col mb-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="http://www.sainte-bernadette-soubirous-nevers.com/wp-content/uploads/2015/04/12--implantations-de-la-congregation-.jpg" class="card-img-top" class="card-img-top" alt="carte du monde">
-                            <div class="card-body">
-                                <h5 class="card-title">Développement de notre congrégation.</h5>
-                            </div>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1"></label>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://www.infinite-paris.com/wp-content/uploads/2019/01/location-voiture-chauffeur-corporate-paris.jpg" class="card-img-top" alt="homme dans voiture de luxe">
-                            <div class="card-body">
-                                <h5 class="card-title">Aide aux personnes dans le besoin</h5>
-                            </div>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1"></label>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <img src="https://www.contrepoints.org/wp-content/uploads/2014/08/Nirvana-Bonheur-Bien-%C3%AAtre-CC-Steve-Prakope.jpg?w=640" class="card-img-top" alt="pose yoga">
-                                <h5 class="card-title">Développement du bien être humain</h5>
-                            </div>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1"></label>
-                        </div>
-                    </div>
-                    <div "col mb-4">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <img src="https://static.wixstatic.com/media/ca5384_415823b8717246b997518c6ce58d6dce~mv2.jpg/v1/fit/w_300,h_300,al_c,q_80/file.jpg" class="card-img-top" alt="chihuahua bien être">
-                                <h5 class="card-title">Projet: étendre le bien être humain à votre animal</h5>
-                            </div>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1"></label>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-success" id="contribuer_button">Contribuer</button>
-                </section>
-        </div>
-        <section class="section-background">
-            <h2 id="retribution" class="col-12 text-center">Notre rétribution</h2>
-
-            <div class="d-flex p-5">
-                <div class="d-flex flex-column">
-                    <div>
-                        <p class="lead text-paragraph text-justify my-auto align-middle">En nous faisant un don, nous nous engageons à exercer des offices spéciales en votre nom afin de vous remercier pour cela. Pour des dons d'un montant
-                            supérieur à 40 000 €, notre Sancta Cucumis Sativus vous fera parvenir un de nos Concombre Sacré spécialement Concomtémisé par ses soins. Vous pourrez alors
-                            vous vanter auprès de vos pairs!
-                        </p>
-                    </div>
-                    <div class="row">
-                        <img src="concombre.png" alt="Image d'un concombre" class="col-5 align-top img_concombre">
-                    </div>
-                </div>
-                <div>
-                    <img class="img-fluid rounded-circle col-12" src="secte.jpg" alt="Représentation picturale d'un champ officieux">
-                </div>
-            </div>
-        </section>
+        </main>
 
         <!-- Footer -->
         <footer class="page-footer font-small mdb-color lighten-3 pt-4 footer-background">
