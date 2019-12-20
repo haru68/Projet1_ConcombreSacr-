@@ -122,11 +122,7 @@
 }
 
 
-.position-entete
-{
-    position: absolute;
-    top: 0%;
-}
+
 
 .couleur-banniere {
     background-color: rgba(52, 209, 86);
@@ -135,6 +131,7 @@
     margin-bottom: auto;
     margin-left: 0%;
     margin-right: 0%;
+    margin-bottom: 0%;
 
 }
 
@@ -144,11 +141,16 @@
 
 .image_banniere {
     position: relative;
-    top: 13%
+}
+
+.button_menu{
+    margin-left: 2%;
+    margin-top:2%;
 }
 
 .navigation-menu {
-    margin-top: 4%;
+    margin-bottom: 0;
+    background-color: rgba(168, 140, 27);
 }
 
 .thick-border {
@@ -158,8 +160,6 @@
 .site-background {
     background-color: rgba(52, 209, 86, 0.4);
     padding-top: 2%;
-    padding-top: 2% 
-
 }
 
 .section-background {
@@ -275,7 +275,7 @@ h2 {
 
 .titre-contribution
 {
-    margin-top: 10%;
+    margin-top: 3%;
     padding-top: 10%;
 }
 
