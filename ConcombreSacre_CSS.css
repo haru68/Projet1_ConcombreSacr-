@@ -3,6 +3,11 @@
     padding: 0.0rem;
 }
 
+.main_nav_design {
+    text-align: left;
+    background-color: rgba(158, 140, 27);
+}
+
 .navbar-nav li {
     padding-right: 35px;
 }
@@ -126,7 +131,11 @@
 .couleur-banniere {
     background-color: rgba(52, 209, 86);
     color: #4AFF72;
-    padding-bottom: 0.8%;
+    padding: 1%;
+    margin-bottom: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+
 }
 
 .logo-title {
