@@ -16,6 +16,7 @@
 
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="ConcombreSacre_CSS.css">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative|Lateef|Marcellus+SC|Quattrocento&display=swap" rel="stylesheet">  <!--Permet d'afficher les nouvelles polices-->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Permet d'afficher du contenu responsif sur tous les écrans-->
         
         <title>Concontême - Congrégation du Concombre Sacré</title>
@@ -25,39 +26,45 @@
             <div class="container-fluid p-0">
                 <section class="row no-gutters">
                     <div class="col-12">
-    
-                        <!--Titre de la bannière-->
-    
                         <div>
-                            <h1 class="couleur-banniere text-white col-12 text-center"> 
-                                <img src="logo-cocombre-sacre-en-couleur160.png" class="logo-title"> 
-                                Concontême
-                                <img src="logo-cocombre-sacre-en-couleur160.png" class="logo-title">
-                            </h1>
-                        </div>
-                        <div class="image_banniere">
-    
-                            <!--Menu déroulant dans l'image de la bannière-->
-    
-                            <div class="dropdown">
-                                <button class="btn btn-success dropdown-toggle position-absolute btn-lg button_menu" type="button" data-toggle="dropdown">
-                                    Menu
-                                </button>
-                                <div class="dropdown-menu main_nav_design position-top">
-                                    <a class="dropdown-item" href="Welcome_page.html">Accueil</a>
-                                    <a class="dropdown-item" href="Conconteme.html">Concomtême</a>
-                                    <a class="dropdown-item" href="BonnesOeuvres.html">Bonnes oeuvres</a>
-                                    <a class="dropdown-item" href="LogIn_Inscription.html">Connexion</a>
-                                    <a class="dropdown-item" href="LogIn_Inscription.html">Inscription</a>
-                            </div>
-                            
-                            <a href="Welcome_page.html"><img class="img-fluid rounded" src="BanniereConcombreSacre.jpg" alt="Banniere de la secte du Concombre Sacré" style="width:100%" title="Retour à la page d'accueil"></a>
+                            <!--Logo or, Titre et Menu déroulant au dessus de la bannière-->
+                            <nav class="navbar bg-dark navbar-dark">
+                                <h1 class="couleur-banniere text-white col-12 text-center"> 
+                                    <img src="logo-cocombre-sacre-or.png" class="logo-title"> 
+                                    Concontême
+                                    <button class="navbar-toggler collapsed menu-deroulant-3-traits" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                        <div class="navbar-collapse collapse" id="collapsibleNavbar"
+                                        style="">
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item">
+                                                <a class="nav-link sous-menu" href="Welcome_page.html">Accueil</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link sous-menu" href="Conconteme.html">Concomtême</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link sous-menu" href="BonnesOeuvres.html">Bonnes oeuvres</a>
+                                                </li>  
+                                                <li class="nav-item">
+                                                    <a class="nav-link sous-menu" href="LogIn_Inscription.html">Connexion</a>
+                                                </li>  
+                                                <li class="nav-item">
+                                                    <a class="nav-link sous-menu" href="LogIn_Inscription.html">Inscription</a>
+                                                </li>  
+                                            </ul>
+                                        </div>
+                                </h1>
+                            </nav>                            
+                            <a href="Welcome_page.html"><img class="img-fluid" src="prosternation2retouche.jpg" alt="Banniere de la secte du Concombre Sacré" style="width:100%" title="Retour à la page d'accueil"></a>
                         </div>
                     </div>
                 </section>
             </div>
 
-                <div class="section-background col-10 testing">
+            <section class="site-background">
+                <div class="section-background col-8 testing">
                     <section>
                         <h2 id="principe">Principe</h2>
                         <div class="container-fluid center-block">
@@ -65,8 +72,8 @@
                             <div class="row"></div>
 
                             <div class="jungiste p-3 d-flex">
-                                <div class="p-3 testimony_paragraph_align">
-                                    <img src="conconteme1.jpg"  class="img-fluid col-12" alt="Membre qui va se faire concontemer">
+                                <div class="testimony_paragraph_align">
+                                    <img src="conconteme1.jpg"  class="img-fluid col-12 about-image-reverse" alt="Membre qui va se faire concontemer">
                                 </div>
                                 <div class="text-justify col-6 testimony_paragraph_align">
                                     <p>Le Concontême est le premier rite nécessaire à votre entrée dans notre communauté. Après celui-ci vous serez donc un membre à part entière de notre
@@ -85,12 +92,12 @@
                             <div class="row"></div>
                     
                             <div class="jungiste p-3 d-flex">
-                                <div class="p-3 testimony_paragraph_align">
-                                    <img src="conconteme2.jpg" class="img-fluid col-12" alt="Dessin d'un rite des templiers">
-                                </div>
                                 <div class="text-justify col-6 testimony_paragraph_align">
                                     <p>Le rite est fortement inspiré de celui des Templiers d'autrefois qui vouaient leur foie à l'Eglise Catholique. Ce rite a cependant été modifié au fil des 
                                     années pour être en accord avec la doctrine de notre communauté.</p>
+                                </div>
+                                <div class="testimony_paragraph_align">
+                                    <img src="conconteme2.jpg" class="img-fluid col-12 about-image" alt="Dessin d'un rite des templiers">
                                 </div>
                             </div>
                         </div>
@@ -103,8 +110,8 @@
                             <div class="row"></div>
 
                             <div class="jungiste p-3 d-flex">
-                                <div class="p-3 testimony_paragraph_align">
-                                    <img src="conconteme3.jpg" class="img-fluid col-12" alt="Membres joyeux suite a une ceremonie de concomteme">
+                                <div class="testimony_paragraph_align">
+                                    <img src="conconteme3.jpg" class="img-fluid col-12 about-image-reverse" alt="Membres joyeux suite a une ceremonie de concomteme">
                                 </div>
                                 <div class="text-justify col-6 testimony_paragraph_align">
                                     <p>Ce rite est obligatoire pour toute nouvelle personnes souhaitant devenir membre de la communauté. Il devra être réalisé dans l'année de 
@@ -121,116 +128,117 @@
                             <div class="row"></div>
                     
                             <div class="jungiste p-3 d-flex">
-                                <div class="p-3 testimony_paragraph_align">
-                                    <img src="conconteme4.jpg" class="img-fluid col-12" alt="Membres dépourvu de tout superflu et de luxure">
-                                </div>
                                 <div class="text-justify col-6 testimony_paragraph_align">
                                     <p>Après vous être inscrit, il restera seulement à vous séparer d'un rein pour la communauté avant de procéder au rituel. En effet, la congrégation vise à
                                     retirer tout ce qui est superflu. La séparation d'une partie de vous-même montre votre détermination et votre foie en notre congrégation.
                                     Le retrait du rein se fait au domaine même de la congrégation et est assuré par un adepte ancien médecin maître raïki.</p>
                                 </div>
+                                <div class="testimony_paragraph_align">
+                                    <img src="conconteme4.jpg" class="img-fluid col-12 about-image" alt="Membres dépourvu de tout superflu et de luxure">
+                                </div>
                             </div>
                         </div>
                     </section>
 
-                    <h1 class="text-center">Concomténez vous!</h1>
+                    <h1 class="text-center" id="titre-slogan">Concomténez vous!</h1>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small mdb-color lighten-3 pt-4 footer-background">
+            <div class="text-center citation">
+                <p>"Le bonheur n’est pas quelque chose d’acquis. Il vient par nos propres actions."</p>
+                <p>Dalaï Lama</p>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left footer-block">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-4">
+                        <!-- Footer Links -->
+                        <h5 class="font-weight-bold text-uppercase mb-4 footer-text">A propos</h5>
+                        <ul class="list-unstyled footer-text" >
+                            <li>
+                                <p>
+                                    <a href="#" class="footer-text">CONTACT</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="#" class="footer-text">FAQ</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="#" class="footer-text">MENTIONS LEGALES</a>
+                                </p>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/" class="facebook" target="_blank"> <img src="https://i.pinimg.com/originals/23/da/be/23dabe90dfaadb4565540727fdaa054a.png" alt="logo facebook" width="50" height="50"></a>
+                                <a href="https://www.youtube.com/" class="youtube" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/YouTube_logo_%282013-2015%29.png"  alt="logo youtube" width="61" height="61"></a>
+                                <a href="https://www.instagram.com/" class="instagram" target="_blank"> <img src="https://img.pngio.com/download-logo-instagram-free-png-transparent-image-and-clipart-instagram-logo-clip-art-400_400.png" alt="logo instagram" width="39" height="39"></a>
+                            </li>
+                        </uL>
+                    </div>
 
                     <hr class="clearfix w-100 d-md-none">
-            </main>
 
-            <!-- Footer -->
-            <footer class="page-footer font-small mdb-color lighten-3 pt-4 footer-background">
-                <div class="text-center citation">
-                    <p>"Le bonheur n’est pas quelque chose d’acquis. Il vient par nos propres actions."</p>
-                    <p>Dalaï Lama</p>
-                </div>
-
-                <!-- Footer Links -->
-                <div class="container text-center text-md-left footer-block">
-
-                    <!-- Grid row -->
-                    <div class="row">
-
-                        <!-- Grid column -->
-                        <div class="col-4">
-                            <!-- Footer Links -->
-                            <h5 class="font-weight-bold text-uppercase mb-4 footer-text">A propos</h5>
-                            <ul class="list-unstyled footer-text" >
-                                <li>
-                                    <p>
-                                        <a href="#" class="footer-text">CONTACT</a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <a href="#" class="footer-text">FAQ</a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <a href="#" class="footer-text">MENTIONS LEGALES</a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <a href="https://www.facebook.com/" class="facebook" target="_blank"> <img src="https://i.pinimg.com/originals/23/da/be/23dabe90dfaadb4565540727fdaa054a.png" alt="logo facebook" width="50" height="50"></a>
-                                    <a href="https://www.youtube.com/" class="youtube" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/YouTube_logo_%282013-2015%29.png"  alt="logo youtube" width="61" height="61"></a>
-                                    <a href="https://www.instagram.com/" class="instagram" target="_blank"> <img src="https://img.pngio.com/download-logo-instagram-free-png-transparent-image-and-clipart-instagram-logo-clip-art-400_400.png" alt="logo instagram" width="39" height="39"></a>
-                                </li>
-                            </uL>
-                        </div>
-
-                        <hr class="clearfix w-100 d-md-none">
-
-                        <!-- Grid column -->
-                        <div class="col-4">
-                            <!-- Contact details -->
-                            <h5 class="font-weight-bold text-uppercase mb-4 footer-text">Contactez nous</h5>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <p>Ouvert du lundi au samedi de 8h00 à 21h00</p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-maison-blanc-png-3.png" alt="logo maison blanc" class="logo-contact" width="16" height="16">
-                                        32 Rue du Bassin d'Austerlitz, 67100 Strasbourg
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-mail-png-blanc-7.png" alt="logo mail blanc" width="16" height="16"> 
-                                        info@concombresacre.com
-                                    </p>
-                                </li>
-                                <li>
+                    <!-- Grid column -->
+                    <div class="col-4">
+                        <!-- Contact details -->
+                        <h5 class="font-weight-bold text-uppercase mb-4 footer-text">Contactez nous</h5>
+                        <ul class="list-unstyled footer-text">
+                            <li>
+                                <p>Ouvert du lundi au samedi de 8h00 à 21h00</p>
+                            </li>
+                            <li>
                                 <p>
-                                    <img src="https://carlisletheacarlisletheatre.org/images/phone-clipart-white-9.png" alt="logo maison blanc" class="logo-contact" width="16" height="16">   
-                                    + 09 99 99 99 99
+                                    <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-maison-blanc-png-3.png" alt="logo maison blanc" class="logo-contact" width="16" height="16">
+                                    32 Rue du Bassin d'Austerlitz, 67100 Strasbourg
                                 </p>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- Grid column -->
-                        <hr class="clearfix w-100 d-md-none">
-
-                        <!-- Grid column -->
-                        <div class="col-4">
-                            <!-- Google map -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.8672768045676!2d7.7616949155443!3d48.5740907792607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c903e6b9de13%3A0xfe720cc7cfd8d3ab!2sAncien%20entrep%C3%B4t%20Seegmuller%2C%2067100%20Strasbourg!5e0!3m2!1str!2sfr!4v1576682932780!5m2!1str!2sfr" height="210" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                        </div>
-                        <!-- Grid column -->
-
-                        <hr class="clearfix w-100 d-md-none">
-                        <!-- Grid column -->
-
+                            </li>
+                            <li>
+                                <p>
+                                    <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-mail-png-blanc-7.png" alt="logo mail blanc" width="16" height="16"> 
+                                    info@concombresacre.com
+                                </p>
+                            </li>
+                            <li>
+                            <p>
+                                <img src="https://carlisletheacarlisletheatre.org/images/phone-clipart-white-9.png" alt="logo maison blanc" class="logo-contact" width="16" height="16">   
+                                + 09 99 99 99 99
+                            </p>
+                            </li>
+                        </ul>
                     </div>
-                </div>
 
-                <!-- Copyright -->
-                <div class="footer-copyright text-center py-3 footer-copyright-background" >© 2019 Copyright:
-                    <a href="https://mdbootstrap.com/education/bootstrap/" class="footer-text"> ConcombreSacreDevGroup.com</a>
+                    <!-- Grid column -->
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-4">
+                        <!-- Google map -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.8672768045676!2d7.7616949155443!3d48.5740907792607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c903e6b9de13%3A0xfe720cc7cfd8d3ab!2sAncien%20entrep%C3%B4t%20Seegmuller%2C%2067100%20Strasbourg!5e0!3m2!1str!2sfr!4v1576682932780!5m2!1str!2sfr" height="210" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+                    <!-- Grid column -->
+
                 </div>
-                <!-- Copyright -->
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 footer-copyright-background" >© 2019 Copyright:
+                <a href="https://mdbootstrap.com/education/bootstrap/" class="footer-copyright-background"> ConcombreSacreDevGroup.com</a>
+            </div>
+            <!-- Copyright -->
         </footer>
     </body>
 </html>
