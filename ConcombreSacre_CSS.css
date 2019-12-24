@@ -5,7 +5,7 @@
 
 .main_nav_design {
     text-align: left;
-    background-color: rgba(158, 140, 27);
+    background-color: #a98d1c;
 }
 
 .navbar-nav li {
@@ -17,6 +17,12 @@
     width: 100%;
 }
 
+/* essai de réduction de la taille des éléments du menu déroulant - mais ça ne marche pas */
+.sous-menu ul li a {
+    font-size: 0.2rem;
+}
+
+/*-----------FOOTER--------*/
 .footer-background {
     background-color:  rgb(37, 36, 36);
     color: white;
@@ -25,30 +31,28 @@
 .footer-text {
     color: white;
     text-decoration: none;
+    font-family: 'Quattrocento', serif;
 }
 
 .footer-text a:hover {
-    color: olive;
+    color: #a98d1c;
     text-decoration: none;
 }
 
 .footer-text ul li p a:hover {
-    color: olive;
+    color: #a98d1c;
     text-decoration: none;
-}
-
-.footer-block{
-    
 }
 
 .footer-copyright-background {
     background-color: rgb(29, 27, 27);
     text-decoration: none;
     color:rgb(73, 73, 73);
+    font-family: 'Quattrocento', serif;
 }
 
-.footer-text a:hover {
-    color: olive;
+.footer-copyright-background a:hover{
+    color: #a98d1c;
     text-decoration: none;
 }
 
@@ -70,9 +74,9 @@
     font-style: italic;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    font-family: 'Quattrocento', serif;
 }
-
-
+/*-----------fin des sélecteurs de style de FOOTER--------*/
 
 .nav-background-login{
     background-color: rgba(52, 209, 86, 0.6);
@@ -121,11 +125,8 @@
     padding-bottom: -30%;
 }
 
-
-
-
 .couleur-banniere {
-    background-color: rgba(52, 209, 86);
+    background-color: rgb(37, 36, 36); /* j'ai mis du gris en couleur de fond de bannière, c'est plus soft sinon il y a trop de couleurs partout*/
     color: #4AFF72;
     padding: 1%;
     margin-bottom: auto;
@@ -135,7 +136,7 @@
 
 }
 
-.logo-title {
+.logo-title { /* j'ai réglé la taille du logo dans la barre de navigation tout en haut de la page*/
     width:4%;
 }
 
@@ -150,7 +151,7 @@
 
 .navigation-menu {
     margin-bottom: 0;
-    background-color: rgba(168, 140, 27);
+    background-color: #a98d1c;
 }
 
 .thick-border {
@@ -158,21 +159,28 @@
 }
 
 .site-background {
-    background-color: rgba(52, 209, 86, 0.4);
-    padding-top: 2%;
+    background-color:#1d300d; /* j'ai mis du vert foncé sur le second arrière-plan du site*/
 }
 
 .section-background {
-    background-color: rgba(300, 300, 300, 0.5);
+    background-color: #a98d1c; /* j'ai mis la couleur or sur le premier arrière-plan du site*/
     margin-right: 5%;
     margin-left: 5%;
+    padding-bottom: 2%; /* j'ai mis un padding bottom au premier arrière-plan du site pour qu'il y ai un espacement entre cette partie principale et le footer*/
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive; /* j'ai ajouté la police d'écriture aux titres principaux*/
 }
 
 h2 {
+    color: white;
     padding-bottom: 2%;
     font-weight: bold;
-    text-decoration: underline rgba(27, 110, 45);
+    text-decoration: underline #7a6614;
     padding-left: 5%;
+    font-family: 'Cinzel', serif; /* j'ai ajouté la police d'écriture aux titres de second rang*/
 }
 
 .text-paragraph {
@@ -193,7 +201,6 @@ h2 {
     margin-left: auto;
 }
 
-
 .testifier {
     padding-bottom: 2%;
     margin-left: 4%;
@@ -203,7 +210,6 @@ h2 {
     color: #28993E;
     font-style: italic;
 }
-
 
 .jungiste {
     margin-left: auto;
@@ -215,22 +221,79 @@ h2 {
     margin-right: auto;
 }
 
-
-
 .testimony_paragraph_align {
     margin-left: auto;
     margin-right: auto;
 }
 
-
-
-
-
 #page /*--centre le contenu----*/
 {
 	width: 50%;
 	margin: auto; 
-	
+}
+
+/*-----------page CONCOMTEME--------*/
+/*--tous ces styles ont été ajouté pour la page concomteme, vous devriez reprendre les sélecteurs 
+.testimony_paragraph_align p pour les paragraphes que vous avez 
+et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
+
+#principe {
+    padding-top: 4%;
+}
+
+#origine{
+    text-align: right;
+    padding-right: 5%;
+}
+
+#prerequis{
+    text-align: right;
+    padding-right: 5%;
+}
+
+.testimony_paragraph_align p {
+    text-indent: 15%;
+    font-family: 'Quattrocento', serif;
+}
+
+.about-image {
+    animation: slideDown 7s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes slideDown {
+    0%{
+        transform: translateX(20%);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+.about-image-reverse {
+    animation: slideDown-reverse 7s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes slideDown-reverse {
+    0%{
+        transform: translateX(-20%);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+#titre-slogan {
+    color: #7a6614;
+    font-size: 3.5rem;
+    margin: 2rem;
+    padding-top: 2%;
+    text-shadow: 0.15rem 0.15rem 0.15rem white;
 }
 
 /*-----------page BONNESOEUVRES--------*/
@@ -247,7 +310,6 @@ h2 {
     margin-right: 35%;
 }
 
-
 .card
 {
 	margin: 0 auto;
@@ -255,9 +317,6 @@ h2 {
     margin-bottom: 10px;
     margin-top: 10%;	
 }
-
-
-
 
 #contribuer_button
 {
@@ -279,7 +338,6 @@ h2 {
     padding-top: 10%;
 }
 
-
 /*----------page LIBEREZ VOUS-----------*/
 
 #nom
@@ -292,7 +350,6 @@ h2 {
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
-
 
 .carousel-item {
     transition: -webkit-transform 0.5s ease;
@@ -307,7 +364,6 @@ h2 {
     height: 100%;
 }
 
-
 /*---------page LOGIN ---------------*/
 
 #button-login
@@ -318,11 +374,6 @@ h2 {
 #Identifiant, #password_id
 {
 	width: 40%;
-}
-
-.citation
-{
-	font-style: italic;
 }
 
 .identifiant
@@ -338,5 +389,6 @@ h2 {
 }
 
 /*------------page LOGIN ---------------*/
+
 
 
