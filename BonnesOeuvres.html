@@ -27,17 +27,17 @@
     <body>
         
         <div class="container-fluid p-0">
-            <section class="row no-gutters">
+            <div class="row no-gutters">
                 <div class="col-12">
                     <div>
                         <!--Logo or, Titre et Menu déroulant au dessus de la bannière-->
                         <nav class="navbar bg-dark navbar-dark">
                             <h1 class="couleur-banniere text-white col-12 text-center"> 
-                                <p>
-                                    <img src="logo-cocombre-sacre-or.png" class="logo-title"> 
+                                <span>
+                                    <img src="logo-cocombre-sacre-or.png" class="logo-title" alt="Logo de notre secte"> 
                                     Bonnes Oeuvres
-                                </p> 
-                                <p>Au profit de la congrégation du Concombre Sacré</p>
+                                </span> 
+                                <span>Au profit de la congrégation du Concombre Sacré</span>
                             </h1>
                         </nav>
                         
@@ -64,14 +64,11 @@
                             </ul>
                         </div>
 
-
                         <a href="Welcome_page.html"><img class="img-fluid" src="prosternation2retouche.jpg" alt="Banniere de la secte du Concombre Sacré" style="width:100%" title="Retour à la page d'accueil"></a>
-                        
-                        
-
+                           
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
 
         <main class="site-background">
@@ -80,7 +77,10 @@
                     <h2 id="soutient" class="text-align-left">Pour nous soutenir</h2>
                     <form action="TraitementArgent.txt" method="POST">
                         <div class="form-group">
-                            <label for="soutient">Merci d'indiquer la nature de votre contribution : </br><em>(montant, acte de propriété etc)</em></label>
+                            <label for="soutient"> 
+                                Merci d'indiquer la nature de votre contribution :                                
+                            </label>
+                                <p><em>(montant, acte de propriété etc)</em></p>
                             <textarea class="form-control" name="soutient" rows="3"></textarea>
                         </div>
                         <div class="form-group">
@@ -88,18 +88,18 @@
                             <input type="file" name="attach">
                         </div>
                         <div>
-                            <button type="submit" class="btn btn-success" id="contribuer_button">Je fais un don</button>  
+                            <button type="submit" class="btn btn-success contribuer_button">Je fais un don</button>  
                         </div>
                     </form>
                 </section>
 
         
-                <section>
+                <div>
                     <h2 class="titre-contribution text-align-left" id="contribution">J'utilise ma contribution pour:</h2>
                     <div class="row row-cols-1 row-cols-md-2">
                         <div class="col mb-4">
                             <div class="card" style="width: 18rem;">
-                                <img src="Secte_monde.jpg" class="card-img-top" class="card-img-top" alt="Implantation dans le monde">
+                                <img src="Secte_monde.jpg" class="card-img-top" alt="Implantation dans le monde">
                                 <div class="card-body">
                                     <h5 class="card-title">Développement de notre congrégation.</h5>
                                 </div>
@@ -113,8 +113,8 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Aide aux personnes dans le besoin</h5>
                                 </div>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                            <label class="form-check-label" for="defaultCheck1"></label>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label" for="defaultCheck2"></label>
                             </div>
                         </div>
                         <div>
@@ -123,24 +123,24 @@
                                     <img src="Respire_concombre.jpg" class="card-img-top" alt="Respirez">
                                     <h5 class="card-title">Développement du bien être humain</h5>
                                 </div>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                            <label class="form-check-label" for="defaultCheck1"></label>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                            <label class="form-check-label" for="defaultCheck3"></label>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card" style="width: 18rem;">
                                 <div class="card-body">
-                                    <img src="Bien être_toutou.jpg" class="card-img-top" alt="chihuahua bien être">
+                                    <img src="Bien_être_toutou.jpg" class="card-img-top" alt="chihuahua bien être">
                                     <h5 class="card-title">Projet: étendre le bien être humain à votre animal</h5>
                                 </div>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                            <label class="form-check-label" for="defaultCheck1"></label>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                            <label class="form-check-label" for="defaultCheck4"></label>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-success" id="contribuer_button">Contribuer</button>
-                    </section>
+                        <button type="submit" class="btn btn-success contribuer_button">Contribuer</button>
+                    </div>
             </div>
-            <section class="section-background section-retribution-margin col-6">
+            <section class="section-background section-retribution-margin col-12">
                 <h2 id="retribution" class="col-12 text-align-left">Notre rétribution</h2>
 
                 <div class="p-3">
