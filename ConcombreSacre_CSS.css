@@ -92,10 +92,10 @@
     font-family: 'Quattrocento', serif;
 }
 
-.google_situation {
-    width: 100%;
-    border: none;
-
+.carte {
+    height:210px;
+    border:0;
+    allowfullscreen:0;
 }
 
 
@@ -322,11 +322,15 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
     }
 }
 
+#thead {   
+    padding: 6% 5% 4% 5%;
+    text-align: center;
+}
+
 #titre-slogan {
     color: #7a6614;
     font-size: 3.5rem;
     margin: 2rem;
-    padding-top: 2%;
     text-shadow: 0.15rem 0.15rem 0.15rem white;
 }
 
