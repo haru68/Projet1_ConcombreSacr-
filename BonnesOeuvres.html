@@ -17,7 +17,11 @@
 
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="ConcombreSacre_CSS.css">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative|Lateef|Marcellus+SC|Quattrocento&display=swap" rel="stylesheet">  <!--Permet d'afficher les nouvelles polices-->
+        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">  <!--Permet d'afficher les nouvelles polices-->
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lateef&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quattrocento&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Permet d'afficher du contenu responsif sur tous les écrans-->
 
 
@@ -32,13 +36,13 @@
                     <div>
                         <!--Logo or, Titre et Menu déroulant au dessus de la bannière-->
                         <nav class="navbar bg-dark navbar-dark">
-                            <h1 class="couleur-banniere text-white col-12 text-center"> 
-                                <span>
+                            <h1 class="couleur-banniere text-white col-12 text-center">                    
                                     <img src="logo-cocombre-sacre-or.png" class="logo-title" alt="Logo de notre secte"> 
                                     Bonnes Oeuvres
-                                </span> 
-                                <span>Au profit de la congrégation du Concombre Sacré</span>
                             </h1>
+                            <h2 class="couleur-banniere text-white col-12 text-center">
+                                Au profit de la congrégation du Concombre Sacré
+                            </h2>
                         </nav>
                         
                         <button class="navbar-toggler menu_button text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
@@ -76,19 +80,19 @@
                 <section class="soutient-margin">
                     <h2 id="soutient" class="text-align-left">Pour nous soutenir</h2>
                     <form action="TraitementArgent.txt" method="POST">
-                        <div class="form-group">
-                            <label for="soutient"> 
+                        <div class="form-group col-10 soutient_align">
+                            <label for="soutient_form"> 
                                 Merci d'indiquer la nature de votre contribution :                                
                             </label>
                                 <p><em>(montant, acte de propriété etc)</em></p>
-                            <textarea class="form-control" name="soutient" rows="3"></textarea>
+                            <textarea class="form-control" id="soutient_form" rows="3"></textarea>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group soutient_align">
                             <label for="file" id="File_SEPA">Veuillez joindre vos documents:</label>
-                            <input type="file" name="attach">
+                            <input id="file" type="file" name="attach">
                         </div>
                         <div>
-                            <button type="submit" class="btn btn-success contribuer_button">Je fais un don</button>  
+                            <button type="submit" class="btn contribuer_button">Je fais un don</button>  
                         </div>
                     </form>
                 </section>
@@ -103,44 +107,47 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Développement de notre congrégation.</h5>
                                 </div>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                            <label class="form-check-label" for="defaultCheck1"></label>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1"></label>
                             </div>
                         </div>
                         <div>
                             <div class="card" style="width: 18rem;">
-                                <img src="Luxe.jpg" class="card-img-top" alt="Luxure">
-                                <div class="card-body">
+                                <img src="Luxe.jpg" class="card-img-top" alt="Luxure">                                
+                                <div class="card-body">                                    
                                     <h5 class="card-title">Aide aux personnes dans le besoin</h5>
                                 </div>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                            <label class="form-check-label" for="defaultCheck2"></label>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck2"></label>
                             </div>
                         </div>
                         <div>
                             <div class="card" style="width: 18rem;">
-                                <div class="card-body">
-                                    <img src="Respire_concombre.jpg" class="card-img-top" alt="Respirez">
+                                <img src="Respire_concombre.jpg" class="card-img-top" alt="Respirez">
+                                <div class="card-body">                                    
                                     <h5 class="card-title">Développement du bien être humain</h5>
                                 </div>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-                            <label class="form-check-label" for="defaultCheck3"></label>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                <label class="form-check-label" for="defaultCheck3"></label>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card" style="width: 18rem;">
-                                <div class="card-body">
-                                    <img src="Bien_être_toutou.jpg" class="card-img-top" alt="chihuahua bien être">
+                                <img src="Bien_être_toutou.jpg" class="card-img-top" alt="chihuahua bien être">
+                                <div class="card-body">                                    
                                     <h5 class="card-title">Projet: étendre le bien être humain à votre animal</h5>
                                 </div>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-                            <label class="form-check-label" for="defaultCheck4"></label>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                <label class="form-check-label" for="defaultCheck4"></label>
                             </div>
-                        </div>
-                        <button type="submit" class="btn btn-success contribuer_button">Contribuer</button>
+                        </div>                        
                     </div>
+                    <button type="submit" class="btn contribuer_button">Contribuer</button>
+                </div>
             </div>
-            <section class="section-background section-retribution-margin col-12">
+
+
+            <section class="section-background section-retribution-margin col-6">
                 <h2 id="retribution" class="col-12 text-align-left">Notre rétribution</h2>
 
                 <div class="p-3">
@@ -152,7 +159,7 @@
                                 vous vanter auprès de vos pairs!
                             </p>
                         </div>
-                        
+                    
                     </div>
                     <div class="row">
                         <img src="Concombre_plateau.png" alt="Image d'un concombre" class="col-10 align-top img_concombre">
@@ -239,7 +246,7 @@
                     <!-- Grid column -->
                     <div class="col-4">
                         <!-- Google map -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.8672768045676!2d7.7616949155443!3d48.5740907792607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c903e6b9de13%3A0xfe720cc7cfd8d3ab!2sAncien%20entrep%C3%B4t%20Seegmuller%2C%2067100%20Strasbourg!5e0!3m2!1str!2sfr!4v1576682932780!5m2!1str!2sfr" height="210" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.8672768045676!2d7.7616949155443!3d48.5740907792607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c903e6b9de13%3A0xfe720cc7cfd8d3ab!2sAncien%20entrep%C3%B4t%20Seegmuller%2C%2067100%20Strasbourg!5e0!3m2!1str!2sfr!4v1576682932780!5m2!1str!2sfr"></iframe>
                     </div>
                     <!-- Grid column -->
 

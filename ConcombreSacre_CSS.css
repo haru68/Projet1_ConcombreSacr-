@@ -91,6 +91,14 @@
     margin-bottom: 3rem;
     font-family: 'Quattrocento', serif;
 }
+
+.carte {
+    height:210px;
+    border:0;
+    allowfullscreen:0;
+}
+
+
 /*-----------fin des sélecteurs de style de FOOTER--------*/
 
 .nav-background-login{
@@ -148,6 +156,7 @@
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 0%;
+    text-decoration: none;
 
 }
 
@@ -313,11 +322,15 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
     }
 }
 
+#thead {   
+    padding: 6% 5% 4% 5%;
+    text-align: center;
+}
+
 #titre-slogan {
     color: #7a6614;
     font-size: 3.5rem;
     margin: 2rem;
-    padding-top: 2%;
     text-shadow: 0.15rem 0.15rem 0.15rem white;
 }
 
@@ -325,8 +338,13 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
 
 .soutient-margin {
     margin-right: 4%;
-    margin-left: 4%;
+    margin-left: 0%;
     padding-top: 8%;
+
+}
+
+.soutient_align {
+    padding-left: 5%;
 
 }
 
@@ -350,6 +368,8 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
 	margin-right: auto;
     margin-top: 5%;
     font-weight: bold;
+    background-color:#1d300d;
+    color: white;
 }
 
 .section-retribution-margin{
