@@ -232,7 +232,7 @@ h2 {
     margin-top: 5%;
     text-decoration: underline;
     font-weight: bold;
-    color: #28993E;
+    color: rgba(238, 234, 214, 0.829);
     font-style: italic;
 }
 
@@ -414,7 +414,18 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
     
 }
 
-/*------------page LOGIN ---------------*/
+/*------------page WELCOME---------------*/
 
+.p1_welcomepage
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    text-align: justify;
+}
 
-
+.titre_temoignages
+{
+    padding-left: 10%;
+    padding-top: 2%;
+}
