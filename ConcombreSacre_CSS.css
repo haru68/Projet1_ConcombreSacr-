@@ -429,3 +429,28 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
     padding-left: 10%;
     padding-top: 2%;
 }
+
+
+/*---responsive---*/
+
+@media (max-width: 575.98px)
+{
+    
+    
+    section img
+    {
+        display: none;
+    }
+    .p1_welcomepage
+    {
+        width: 100%;
+    }
+
+   
+    p
+    {
+        width: 100%;
+    }
+
+    
+}
