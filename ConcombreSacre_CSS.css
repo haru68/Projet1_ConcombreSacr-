@@ -101,14 +101,10 @@
 
 /*-----------fin des sélecteurs de style de FOOTER--------*/
 
-.nav-background-login{
-    background-color: rgba(52, 209, 86, 0.6);
-
-}
 
 .contour_contenu {
     padding: 2%;
-    margin-top:5%;
+    margin-top:0%;
 }
 
 .h1_tab {
@@ -161,7 +157,7 @@
 }
 
 .logo-title { /* j'ai réglé la taille du logo dans la barre de navigation tout en haut de la page*/
-    width:4%;
+    width:5%;
 }
 
 .image_banniere {
@@ -383,6 +379,8 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
     margin-top: 2%;
     padding-top: 10%;
 }
+
+
 
 /*----------page LIBEREZ VOUS-----------*/
 
