@@ -206,10 +206,11 @@ h1 {
 
 h2 {
     color: white;
+    padding-left:5%;
+    padding-top: 5%;
     padding-bottom: 2%;
     font-weight: bold;
     text-decoration: underline #7a6614;
-    padding-left: 5%;
     font-family: 'Cinzel', serif; /* j'ai ajouté la police d'écriture aux titres de second rang*/
 }
 
@@ -233,7 +234,7 @@ h2 {
 
 .testifier {
     padding-bottom: 2%;
-    margin-left: 4%;
+    margin-left: 5%;
     margin-top: 5%;
     text-decoration: underline;
     font-weight: bold;
@@ -426,6 +427,7 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
         
 }
 
+
 #nom_login
 {
     width: 100%;
@@ -442,9 +444,13 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
     text-align: justify;
 }
 
+.Who_are_we {
+    padding-left: 0%;
+}
+
 .titre_temoignages
 {
-    padding-left: 10%;
+    padding-left: 5%;
     padding-top: 2%;
 }
 
