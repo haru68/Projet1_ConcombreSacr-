@@ -22,59 +22,65 @@
         <title>Page d'enregistrement - Congrégation du Concombre Sacré</title>
     </head>
     <body>
-        <main>
-            <div class="container-fluid p-0">
-                <section class="row no-gutters">
-                    <div class="col-12">
-    
-                        <!--Titre de la bannière-->
-    
-                        <div>
-                            <h1 class="couleur-banniere text-white col-12 text-center"> 
-                                <img src="logo-cocombre-sacre-en-couleur160.png" class="logo-title"> 
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-12">
+                   
+                    <!--Logo or, Titre et Menu déroulant au dessus de la bannière-->
+                    <nav class="navbar bg-dark navbar-dark">
+                        <h1 class="couleur-banniere text-white col-12 text-center">                    
+                                <img src="logo-cocombre-sacre-or.png" class="logo-title" alt="Logo de notre secte"> 
                                 Page d'enregistrement
-                                <img src="logo-cocombre-sacre-en-couleur160.png" class="logo-title">
-                            </h1>
-                        </div>
-                        <div class="image_banniere">
-    
-                            <!--Menu déroulant dans l'image de la bannière-->
-    
-                            <div class="dropdown">
-                                <button class="btn btn-success dropdown-toggle position-absolute btn-lg button_menu" type="button" data-toggle="dropdown">
-                                    Menu
-                                </button>
-                                <div class="dropdown-menu main_nav_design position-top">
-                                    <a class="dropdown-item" href="Welcome_page.html">Accueil</a>
-                                    <a class="dropdown-item" href="Conconteme.html">Concomtême</a>
-                                    <a class="dropdown-item" href="BonnesOeuvres.html">Bonnes oeuvres</a>
-                                    <a class="dropdown-item" href="LogIn_Inscription.html">Connexion</a>
-                                    <a class="dropdown-item" href="LogIn_Inscription.html">Inscription</a>
-                            </div>
-                            
-                            <a href="Welcome_page.html"><img class="img-fluid rounded" src="BanniereConcombreSacre.jpg" alt="Banniere de la secte du Concombre Sacré" style="width:100%" title="Retour à la page d'accueil"></a>
-                        </div>
+                        </h1>
+                    </nav>
+                    
+                    <button class="navbar-toggler menu_button text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+                        Menu              
+                    </button>
+                    <div class="navbar-collapse collapse bg-dark navigation_bar" id="collapsibleNavbar" style="">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link sous-menu text-white button_hover" href="Welcome_page.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link sous-menu text-white button_hover" href="Conconteme.html">Concomtême</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link sous-menu text-white button_hover" href="BonnesOeuvres.html">Bonnes oeuvres</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link sous-menu text-white button_hover" href="LogIn_Inscription.html">Connexion</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link sous-menu text-white button_hover" href="LogIn_Inscription.html">Inscription</a>
+                            </li>  
+                        </ul>
                     </div>
-                </section>
+
+                    <a href="Welcome_page.html"><img class="img-fluid" src="prosternation2retouche.jpg" alt="Banniere de la secte du Concombre Sacré" style="width:100%" title="Retour à la page d'accueil"></a>        
+                    
+                </div>
+            </div>
+        </div>
+
+        <main class="site-background">
+            <div class="col-8 testing container contour_contenu section-background">
+                <ul class="nav nav-tabs">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Adepte" role="tab" data-toggle="tab">Adepte</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Inscription" role="tab" data-toggle="tab">Inscription</a>
+                    </li>
+
+                </ul>
             </div>
 
-
-        <div class="container contour_contenu">
-            <ul class="nav nav-tabs">
-
-                <li class="nav-item">
-                    <a class="nav-link active" href="#Adepte" role="tab" data-toggle="tab">Adepte</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#Inscription" role="tab" data-toggle="tab">Inscription</a>
-                </li>
-
-            </ul>
-
-            <div class="tab-content border">
-                <div class="tab-pane show active fade p-5 nav-background-login" id="Adepte" role="tabpanel">
-                    <h1 class="h1_tab">Communauté de la congrégation du Concombre Sacré</h1>
+            <div class="col-8 testing tab-content section-background">
+                <div class="tab-pane show active fade p-5 section-background" id="Adepte" role="tabpanel">
+                    <h2 class="h1_tab">Communauté de la congrégation du Concombre Sacré</h2>
 
                     <div class="d-flex">
                         <p class="col-6 text-justify p-20 middle-centering">Après validation de votre inscription par notre Sancta Cucumis Sativus, vos identifiants vous seront envoyés par pigeon voyageur sous quinzaine.</p>
@@ -94,7 +100,7 @@
                                 </div>
                             </div>
                             <div class="container-fluid input_disposition col-6">
-                                <input type="submit" value="Viender dans la communauté !" class="p-1 btn-danger block-center">
+                                <input type="submit" value="Viender dans la communauté !" class="btn contribuer_button">
                             </div>
                         </form>
                     </div>            
@@ -104,21 +110,21 @@
                         <div class="slogan text-center">
                             <p>Paix, harmonie, sérénité, méditation</p>
                         </div>   
-                    </div>
+                </div>
 
-                    <div class="tab-pane fade nav-background-login" id="Inscription" role="tabpanel">
+                <div class="tab-pane fade section-background" id="Inscription" role="tabpanel">
                     
-                        <h1 class="h1_tab p-5">Libérez vous avec la congrégation du Concombre Sacré</h1>
+                    <h2 class="h1_tab p-5">Libérez vous avec la congrégation du Concombre Sacré</h2>
                     
-                        <div class="d-flex">
+                    <div class="d-flex">
 
-                            <div class="col-6">
-                                <p class="col-12 text-justify p-20 free_centering">Nous vous avons séduit? Alors ne tardez pas et venez vous aussi goûter à l'essence pure du concombre sacré! 
-                                Pour cela, rien de plus simple, inscrivez-vous ci-dessous en prenant soin de bien enregistrer en pièce jointe
-                                votre dernier relevé de compte ainsi que le mandat SEPA dûment rempli. Nous nous chargerons du reste!
-                                A très vite!</p>
-                                <p class="col-12 font-weight-bold font-italic text-center">Sancta Cucumis Sativus</p>
-                            </div c>
+                        <div class="col-6">
+                            <p class="col-12 text-justify p-20 free_centering">Nous vous avons séduit? Alors ne tardez pas et venez vous aussi goûter à l'essence pure du concombre sacré! 
+                            Pour cela, rien de plus simple, inscrivez-vous ci-dessous en prenant soin de bien enregistrer en pièce jointe
+                            votre dernier relevé de compte ainsi que le mandat SEPA dûment rempli. Nous nous chargerons du reste!
+                            A très vite!</p>
+                            <p class="col-12 font-weight-bold font-italic text-center">Sancta Cucumis Sativus</p>
+                        </div>
         
                         <section>
                             <form action="TraitementInscription.txt" method="POST">
@@ -140,11 +146,10 @@
                                     </div>
                                 
                                     <div class="container-fluid input_disposition col-10 p-bottom">
-                                        <input type="submit" value="Je veux ressentir l'essence pure du concombre!" class="btn-success p-3">
+                                        <input type="submit" value="Je veux ressentir l'essence pure du concombre!" class="btn contribuer_button">
                                     </div>
-                                </form> 
-                            </section>
-                        </div>
+                            </form> 
+                        </section>
                     </div>
                 </div>
             </div>
@@ -228,7 +233,7 @@
                     <!-- Grid column -->
                     <div class="col-4">
                         <!-- Google map -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.8672768045676!2d7.7616949155443!3d48.5740907792607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c903e6b9de13%3A0xfe720cc7cfd8d3ab!2sAncien%20entrep%C3%B4t%20Seegmuller%2C%2067100%20Strasbourg!5e0!3m2!1str!2sfr!4v1576682932780!5m2!1str!2sfr" height="210" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.8672768045676!2d7.7616949155443!3d48.5740907792607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c903e6b9de13%3A0xfe720cc7cfd8d3ab!2sAncien%20entrep%C3%B4t%20Seegmuller%2C%2067100%20Strasbourg!5e0!3m2!1str!2sfr!4v1576682932780!5m2!1str!2sfr"></iframe>
                     </div>
                     <!-- Grid column -->
 
