@@ -410,6 +410,9 @@ et le sélecteur #titre-slogan pour les phrases slogans de vos pages--*/
 }
 
 /*---------page LOGIN ---------------*/
+.tabcol {
+    color: #1d300d;
+}
 
 #button-login
 {
