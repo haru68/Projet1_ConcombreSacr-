@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-    <head lang="fr">
+<html lang="fr">
+    <head>
         <meta charset="utf-8">
         <meta name="keywords" content="concombre, amour, foie, spiritualité">
         <meta name="description" content="Venez ressentir l'essence même du concombre!">
@@ -70,7 +70,7 @@
 
         <main class="site-background">
             <div class="col-8 testing container contour_contenu section-background">
-                <ul class="nav nav-tabs">
+                <ul class="nav nav-tabs" role="tablist">
 
                     <li class="nav-item">
                         <a class="nav-link active tabcol" href="#Adepte" role="tab" data-toggle="tab">Adepte</a>
@@ -95,7 +95,7 @@
                             <div class="col-6 container-fluid body-content form-group">
                                 <div class="identifiant">
                                     <label for="identifiant" class="center-block">Identifiant:</label>
-                                    <input type="text" id="Identifiant" name="user_id" class="center-block form-control">
+                                    <input type="text" id="identifiant" name="user_id" class="center-block form-control">
                                 </div>
                             </div>
                             <div class="col-6 container-fluid body-content">
@@ -131,30 +131,30 @@
                             <p class="col-12 font-weight-bold font-italic text-center">Sancta Cucumis Sativus</p>
                         </div>
         
-                        <section>
+                        <div>
                             <form action="TraitementInscription.txt" method="POST">
                                 
                                 <div class="form-group col-6 container-fluid body-content p-bottom">
                                     <label for="nom">Renseignez votre nom: </label>
-                                    <input type="text" class="form-control" id="nom_login" name="nom">
+                                    <input type="text" class="form-control" id="nom" name="nom">
                                 </div>
                                 
                                 
                                 <div class="col-10 container-fluid body-content p-bottom">
-                                    <label for="files" id="File_RIB">Veuillez joindre votre RIB ici:</label>
-                                    <input type="file" name="attach">
+                                    <label for="files">Veuillez joindre votre RIB ici:</label>
+                                    <input type="file" name="attach" id="files">
                                 </div>
         
                                     <div class="col-10 container-fluid body-content p-bottom">
-                                        <label for="files" id="File_SEPA">Veuillez joindre votre mandat SEPA dûment rempli:</label>
-                                        <input type="file" name="attach">
+                                        <label for="sepa">Veuillez joindre votre mandat SEPA dûment rempli:</label>
+                                        <input type="file" name="attach" id="sepa">
                                     </div>
                                 
                                     <div class="container-fluid input_disposition col-10 p-bottom">
                                         <input type="submit" value="Je veux ressentir l'essence pure du concombre!" class="btn contribuer_button">
                                     </div>
                             </form> 
-                        </section>
+                        </div>
                     </div>
                 </div>
             </div>
